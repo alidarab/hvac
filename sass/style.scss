@@ -1,0 +1,127 @@
+$font-stack: -apple-system,BlinkMacSystemFont,"Lato","Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+$body-copy-colour: #333;
+$primary-colour: #CB020B;
+$secondary-colour: #2F338F;
+$white-colour: #fff;
+
+body {
+  font: 100% $font-stack;
+  color: $body-copy-colour;
+}
+
+h1 {
+	font-size: 3.3125rem;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+h3 {
+	font-size: 1.875rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+}
+
+.hvac-tagline {
+	color: $white-colour;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.masthead {
+	border-top: 0.5625rem solid $secondary-colour;
+	padding: 2.188rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	text-transform: uppercase;
+	color: $white-colour;
+	text-align: center;
+	padding: 0 1.125rem;
+}
+
+.navbar-nav > li {
+   line-height: 50px;
+}
+
+.google-guarantee {
+	margin-top: -0.8125rem;
+}
+
+// Expand Padding on Nav Links + Adjust Google Guarantee Icon for small screens
+@media (max-width: 768px) {
+	.navbar-dark .navbar-nav .nav-link {
+		padding: 8px 1.5rem;
+	}
+	
+	.google-guarantee {
+    margin-top: 0;
+	}
+}
+
+.bg-primary {
+	background-color: $secondary-colour !important;
+}
+
+.tagline-features-bg-image {
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	border-bottom: 0.500em solid $secondary-colour;
+}
+
+.tagline-features-container {
+	padding: 3.125rem 1.875rem;
+}
+
+.features-container {
+	padding: 1.25rem 0;
+}
+
+.tagline-features {
+	font-size: 1.125em;
+	font-weight: 700;
+	color: $white-colour;
+	list-style: none;
+}
+
+.tagline-features-icon {
+	color: $primary-colour;
+}
+
+.cta-quote-button {
+	background-color: $secondary-colour;
+	border: 1px solid $secondary-colour;
+	border-radius: 1.375em 1.375em 0 0;
+}
+
+.cta-quote-button:hover {
+	background-color: $primary-colour;
+	border: 1px solid $primary-colour;
+}
+
+.offer-bar {
+	background-color: $primary-colour;
+	color: $white-colour;
+	padding: 25px;
+}
+
+.btn-offer {
+	font-size: 17px;
+	border: 1px solid #fff;
+	border-radius: 35px;
+	background-color: #fff;
+	color: $body-copy-colour;
+}
+
+.icon-air-conditioner {
+	color: $secondary-colour;
+}
+
+.icon-furnace {
+	color: $primary-colour;
+}
