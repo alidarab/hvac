@@ -3,6 +3,13 @@ $body-copy-colour: #333;
 $primary-colour: #CB020B;
 $secondary-colour: #2F338F;
 $white-colour: #fff;
+$outline-colour: #1E1E1E;
+
+@mixin box-shadow($value) {
+	-webkit-box-shadow: $value;
+	-moz-box-shadow: $value;
+	box-shadow: $value;
+}
 
 body {
   font: 100% $font-stack;
@@ -16,14 +23,22 @@ h1 {
 
 h2 {
 	font-size: 2.25rem;
+	font-weight: 900;
 }
 
 h3 {
 	font-size: 1.875rem;
+	font-weight: 700;
 }
 
 h4 {
 	font-size: 1.625rem;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 1.3125rem;
+	font-weight: 700;
 }
 
 .hvac-tagline {
@@ -55,7 +70,7 @@ h4 {
 // Expand Padding on Nav Links + Adjust Google Guarantee Icon for small screens
 @media (max-width: 768px) {
 	.navbar-dark .navbar-nav .nav-link {
-		padding: 8px 1.5rem;
+		padding: 0.5rem 1.5rem;
 	}
 	
 	.google-guarantee {
@@ -107,11 +122,11 @@ h4 {
 .offer-bar {
 	background-color: $primary-colour;
 	color: $white-colour;
-	padding: 25px;
+	padding: 1.5625rem;
 }
 
 .btn-offer {
-	font-size: 17px;
+	font-size: 1.0625rem;
 	border: 1px solid #fff;
 	border-radius: 35px;
 	background-color: #fff;
@@ -124,4 +139,61 @@ h4 {
 
 .icon-furnace {
 	color: $primary-colour;
+}
+
+.services-box {
+	border: 1px solid  $outline-colour;
+	border-radius: 12px;
+	padding: 0.9375rem;
+	margin: 0.625rem;
+	@include box-shadow( 1px 2px 7px 1px rgba(30,30,30,0.3) );
+	}
+
+.services {
+	padding: 2%;
+}
+
+.services i {
+	color: $primary-colour;
+}
+
+.services-icon-bg {
+	position: relative;
+}
+
+.services-icon {
+	color: $white-colour;
+}
+
+.services-icon-bg .services-icon {
+	top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.service-name {
+	line-height: 1;
+	padding-top: 0.9375rem;
+	margin-bottom: 0;
+}
+
+hr {
+	width: 15%;
+	border: 3px solid $secondary-colour;
+}
+
+.technician-icon {
+	margin: 15px 0;
+}
+
+.left-col-image {
+	padding-right: 0;
+  padding-left: 0; 
+}
+
+.right-col-copy {
+	color: #fff;
+	background-color: $secondary-colour;
+	padding: 55px;
 }
