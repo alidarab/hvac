@@ -22,6 +22,10 @@ h5 {
   font-size: 1.3125rem;
   font-weight: 700; }
 
+.hvac-logo {
+  width: 360px;
+  padding: 12px; }
+
 .hvac-tagline {
   color: #fff;
   text-transform: uppercase;
@@ -29,7 +33,10 @@ h5 {
 
 .masthead {
   border-top: 0.5625rem solid #2F338F;
-  padding: 2.188rem; }
+  padding: 30px; }
+
+.masthead img {
+  margin: 5px; }
 
 .navbar-dark .navbar-nav .nav-link {
   text-transform: uppercase;
@@ -59,7 +66,7 @@ h5 {
   border-bottom: 0.5em solid #2F338F; }
 
 .tagline-features-container {
-  padding: 3.125rem 1.875rem; }
+  padding: 4.125rem 1.875rem; }
 
 .features-container {
   padding: 1.25rem 0; }
@@ -94,6 +101,9 @@ h5 {
   background-color: #fff;
   color: #333; }
 
+.btn-offer span {
+  line-height: 34px; }
+
 .icon-air-conditioner {
   color: #2F338F; }
 
@@ -110,7 +120,7 @@ h5 {
   box-shadow: 1px 2px 7px 1px rgba(30, 30, 30, 0.3); }
 
 .services {
-  padding: 2%; }
+  padding: 1.5625rem; }
 
 .services i {
   color: #CB020B; }
@@ -139,13 +149,63 @@ hr {
 .technician-icon {
   margin: 15px 0; }
 
+.why-us {
+  margin-top: 1.25rem;
+  background-color: #2F338F; }
+
 .left-col-image {
   padding-right: 0;
   padding-left: 0; }
 
 .right-col-copy {
   color: #fff;
+  padding: 25px; }
+
+.btn-learn-more {
+  font-size: 1.0625rem;
+  border: 1px solid #CB020B;
+  border-radius: 35px;
+  background-color: #CB020B;
+  color: #fff; }
+
+.btn-learn-more:hover {
+  border: 1px solid #fff;
   background-color: #2F338F;
-  padding: 55px; }
+  color: #fff; }
+
+.testimonial-section {
+  background-image: url("../img/image-bg.jpg");
+  background-size: cover;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #fff; }
+
+.testimonial {
+  padding-top: 30px; }
+
+.testimonial-btn {
+  background-color: #CB020B;
+  border: 1px solid #CB020B; }
+
+.logos {
+  padding-top: 45px;
+  padding-bottom: 45px; }
+
+.logos img {
+  margin: 15px; }
+
+.footer-top {
+  background-color: #2F338F;
+  padding: 40px; }
+
+.footer-top img {
+  margin: 5px; }
+
+.footer-bottom {
+  background-color: #333;
+  padding: 20px; }
+
+.footer-bottom, .footer-bottom a {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

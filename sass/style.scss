@@ -41,6 +41,11 @@ h5 {
 	font-weight: 700;
 }
 
+.hvac-logo {
+	width: 360px;
+	padding: 12px;
+}
+
 .hvac-tagline {
 	color: $white-colour;
 	text-transform: uppercase;
@@ -49,7 +54,11 @@ h5 {
 
 .masthead {
 	border-top: 0.5625rem solid $secondary-colour;
-	padding: 2.188rem;
+	padding: 30px;
+}
+
+.masthead img {
+	margin: 5px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -90,7 +99,7 @@ h5 {
 }
 
 .tagline-features-container {
-	padding: 3.125rem 1.875rem;
+	padding: 4.125rem 1.875rem;
 }
 
 .features-container {
@@ -133,6 +142,10 @@ h5 {
 	color: $body-copy-colour;
 }
 
+.btn-offer span {
+	line-height: 34px;
+}
+
 .icon-air-conditioner {
 	color: $secondary-colour;
 }
@@ -150,7 +163,7 @@ h5 {
 	}
 
 .services {
-	padding: 2%;
+	padding: 1.5625rem;
 }
 
 .services i {
@@ -187,6 +200,11 @@ hr {
 	margin: 15px 0;
 }
 
+.why-us {
+	margin-top: 1.25rem;
+	background-color: $secondary-colour;
+}
+
 .left-col-image {
 	padding-right: 0;
   padding-left: 0; 
@@ -194,6 +212,63 @@ hr {
 
 .right-col-copy {
 	color: #fff;
+	padding: 25px;
+}
+
+.btn-learn-more {
+	font-size: 1.0625rem;
+	border: 1px solid $primary-colour;
+	border-radius: 35px;
+	background-color: $primary-colour;
+	color: $white-colour;
+}
+
+.btn-learn-more:hover {
+	border: 1px solid $white-colour;
 	background-color: $secondary-colour;
-	padding: 55px;
+	color: $white-colour;
+}
+
+.testimonial-section {
+	background-image: url('../img/image-bg.jpg');
+	background-size: cover;
+	padding-top: 65px;
+	padding-bottom: 65px; 
+	color: #fff;
+}
+
+.testimonial {
+	padding-top: 30px;
+}
+
+.testimonial-btn {
+	background-color: $primary-colour;
+	border: 1px solid $primary-colour;
+}
+
+.logos {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.logos img {
+	margin: 15px;
+}
+
+.footer-top {
+	background-color: $secondary-colour;
+	padding: 40px;
+}
+
+.footer-top img {
+	margin: 5px;
+}
+
+.footer-bottom {
+	background-color: $body-copy-colour;
+	padding: 20px;
+}
+
+.footer-bottom, .footer-bottom a {
+	color: $white-colour;
 }

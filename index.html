@@ -16,16 +16,18 @@
 	<title>Hello, world!</title>
 </head>
 <body>
-	
-<div class="container-fluid"><!-- Masthead + Nav -->
-	<div class="row masthead">
-		<div class="col-md-3 col-sm-12">
-			<img src="img/hvac.svg" alt="HVAC Logo" class="img-responsive"/>
-		</div>
-		<div class="col-md-9 col-ms-12">
+
+<!-- Masthead -->
+	<div class="container-fluid masthead">
+		<div class="row justify-content-md-center">
+			<div class="col-md-4 col-sm-12">
+				<img src="img/logo.png" alt="HVAC Logo" class="img-fluid">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="img/info-widget.png" alt="Info Widghet" class="img-fluid">
+			</div>
 		</div>
 	</div>
-</div>
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -70,13 +72,14 @@
 				<a class="nav-link" href="#">Contact</a>
 			  </li>
 			  <li class="nav-item google-guarantee">
-				<a class="nav-link" href="#"><img src="img/gls-icon.svg" alt="Google Guaranteed" /></a>
+				<a class="nav-link" href="#"><img src="img/gls-icon.png" alt="Google Guaranteed" /></a>
 			  </li>
 			</ul>
 		</div>
 	</nav>
 <!-- Masthead + Nav Ends -->
-	
+
+<!-- Tagline + Features End -->
 <div class="jumbotron-fluid tagline-features-bg-image"><!-- Tagline + Features -->
 	<div class="container tagline-features-container">
 		<div class="row">
@@ -115,35 +118,38 @@
 			<button type="button" class="btn btn-primary cta-quote-button">GET A QUOTE NOW <i class="fas fa-angle-double-right"></i></button>
 	</div><!-- Tagline + Features End -->
 </div>
-	
-<div class="container-fluid offer-bar">
-	<div class="row d-flex justify-content-center">
-	<div class="align-self-center">
-	<i class="fas fa-tags fa-2x"></i>
-	</div>
-	<div class="col-md-7 align-self-center">
-		<p>Take Advantage of Our New Installation Offer</p>
-		<h3>10-year parts and labor warranty + $99 yearly maintenance package*</h3>
-	</div>
-	<div class="col-md-4 align-self-center">
-		<button type="button" class="btn btn-offer btn-block">
-			<span class="align-middle">GET A NEW AIR CONDITIONER </span>
-			<span class="fa-stack fa-1x align-middle icon-air-conditioner">
-				<i class="fas fa-circle fa-stack-2x"></i>
-				<i class="fas fa-snowflake fa-stack-1x fa-inverse"></i>
-			</span>
-		</button>
-		<button type="button" class="btn btn-offer btn-block">
-			<span class="align-middle">GET A NEW FURNACE </span>
-			<span class="fa-stack fa-1x align-middle">
-				<i class="fas fa-circle fa-stack-2x icon-furnace"></i>
-				<i class="fas fa-fire fa-stack-1x fa-inverse"></i>
-			</span>
-		</button>
-	</div>
-</div>
-</div>
 
+<!-- Offer Bar -->
+<div class="container-fluid offer-bar">
+	<div class="row d-flex justify-content-md-center">
+		<div class="col-md-1 col-sm-12 align-self-center">
+			<i class="fas fa-tags float-md-right fa-2x"></i>
+		</div>
+		<div class="col-md-5 col-sm-12 align-self-center">
+			<p>Take Advantage of Our New Installation Offer</p>
+			<h3>10-year parts and labor warranty + $99 yearly maintenance package*</h3>
+		</div>
+		<div class="col-md-4 col-sm-12 align-self-center">
+			<button type="button" class="btn btn-offer btn-block my-auto">
+				<span>A NEW AIR CONDITIONER</span> 
+				<span class="fa-stack fa-1x align-middle icon-air-conditioner float-right">
+					<i class="fas fa-circle fa-stack-2x"></i>
+					<i class="fas fa-snowflake fa-stack-1x fa-inverse"></i>
+				</span>
+			</button>
+			<button type="button" class="btn btn-offer btn-block">
+				<span>GET A NEW FURNACE</span>
+				<span class="fa-stack fa-1x align-middle float-right">
+					<i class="fas fa-circle fa-stack-2x icon-furnace"></i>
+					<i class="fas fa-fire fa-stack-1x fa-inverse"></i>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+<!-- Offer Bar -->
+
+<!-- Services -->
 <div class="container services">
 	<div class="row">
 		<div class="col text-center service-offering">
@@ -187,14 +193,56 @@
 		</div>
 	</div>
 </div>
+<!-- Services -->
 
-		<div class="row">
-			<div class="col-md-6 left-col-image"> <img src="img/left-column.jpg" alt="Technician working on Outdoor Unit" width="100%" /></div>
-			<div class="col-md-6 right-col-copy">
-				<h2>WHY PEOPLE CHOOSE US</h2>
-				<p>Our company is a family-owned business in its second generation, we’re on a mission to clear the air of any doubts you might have about HVAC companies. We’re constantly looking for ways to make Better, cleaner, faster philosophy with HVAC company.</p>
+<!-- Why Us -->
+<div class="container-fluid">
+	<div class="row why-us">
+		<div class="col-md-6 left-col-image"> <img src="img/left-column.jpg" alt="Technician working on Outdoor Unit" class="img-fluid" /></div>
+		<div class="col-md-5 right-col-copy align-self-center">
+			<h2>WHY PEOPLE CHOOSE US</h2>
+			<p>Our company is a family-owned business in its second generation, we’re on a mission to clear the air of any doubts you might have about HVAC companies. We’re constantly looking for ways to make Better, cleaner, faster philosophy with HVAC company.</p>
+			<button type="button" class="btn btn-learn-more btn-block"><i class="fas fa-angle-double-right"></i> Learn More About Us</button>
+		</div>
+	</div>
+</div>
+
+<!-- Logos -->
+<div class="container logos">
+	<div class="row justify-content-md-center">
+		<div class="col-md-3 text-center"><img src="img/logos/bbb+a-blue 2.png" alt="BBB +A Rating"></div>
+		<div class="col-md-3 text-center"><img src="img/logos/trane-comfort-specialist-shield-logo-685C69EFB3-seeklogo.com.png" alt="Trane Comfort Specialist Shield"></div>
+		<div class="col-md-3 text-center"><img src="img/logos/fb-reviews.png" alt="Facebook Reviews"></div>
+		<div class="col-md-3 text-center"><img src="img/logos/google-reviews.png" alt="Google Reviews"></div>
+	</div>
+</div>
+<!-- Logos -->
+
+<div class="container-fluid testimonial-section">
+	<div class="row justify-content-md-center">
+		<div class="col col-lg-6 text-center">
+				<i class="fas fa-quote-left fa-3x"></i>
+				<p class="testimonial ">Love this company! Scheduling is always easy, the reps keep you informed. Very handy to receive a text letting you know the tech is on his way. Also like the explanation of services with photos of each step. Highly recommend Clear the Air to anyone looking for a new unit, or a service company.<br /><br />— Shannon S. </p>	
+				<button type="button" class="btn btn-danger testimonial-btn">Read More <i class="fas fa-angle-double-right"></i></button>
 			</div>
-		</div>	
+	</div>
+</div>
+
+<footer class="container-fluid">
+	<div class="row footer-top justify-content-md-center">
+			<div class="col-md-4 col-sm-12">
+					<img src="img/logo-white.png" alt="HVAC Logo" class="img-fluid">
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<img src="img/info-widget.png" alt="Info Widghet" class="img-fluid">
+				</div>
+	</div>
+	<div class="row footer-bottom">
+		<div class="col-12 text-center">
+				<p>Copyright © 2019 HVAC. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+		</div>
+	</div>
+</footer>
 	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
